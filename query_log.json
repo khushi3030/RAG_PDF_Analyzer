@@ -1,0 +1,93 @@
+[
+  {
+    "timestamp": "2026-09-01 12:54:45",
+    "question": "explain all the images present in this project ",
+    "latency_sec": 7.84,
+    "num_sources": 5,
+    "supported": false
+  },
+  {
+    "timestamp": "2026-09-01 12:55:17",
+    "question": "explain the research paper objective and solution ",
+    "latency_sec": 8.11,
+    "num_sources": 5,
+    "supported": true
+  },
+  {
+    "timestamp": "2026-09-01 13:05:54",
+    "question": "explain all the images in thsi research paper ",
+    "latency_sec": 18.23,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 13:06:26",
+    "question": "so u can view the images ",
+    "latency_sec": 9.01,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 13:14:02",
+    "question": "this summary u are proviidng based on the description given in text of paper or after vuewing the images by the model youself ",
+    "latency_sec": 5.4,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 13:33:27",
+    "question": "does this dcuemnt have an image ",
+    "latency_sec": 5.59,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 13:33:46",
+    "question": "no what is the new document about ",
+    "latency_sec": 4.67,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 13:34:19",
+    "question": "so u ares ure these 2 pages have images that are combinesd and converted to a pdf ",
+    "latency_sec": 3.91,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 13:34:38",
+    "question": "what does this document say ",
+    "latency_sec": 5.44,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-01 21:48:37",
+    "question": "images in this pdf ",
+    "latency_sec": 6.46,
+    "num_sources": 5,
+    "supported": true
+  },
+  {
+    "timestamp": "2026-09-01 23:42:13",
+    "question": "images ",
+    "latency_sec": 3.42,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-05 21:44:48",
+    "question": "images  in this document desrcibe them ",
+    "latency_sec": 11.51,
+    "num_sources": 5,
+    "supported": null
+  },
+  {
+    "timestamp": "2026-09-06 12:14:33",
+    "question": "what  is doc about ",
+    "latency_sec": 4.47,
+    "num_sources": 5,
+    "supported": null
+  }
+]

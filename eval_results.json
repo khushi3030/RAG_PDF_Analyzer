@@ -1,0 +1,280 @@
+{
+  "summary": {
+    "num_questions": 15,
+    "retrieval_hit_rate": 0.13333333333333333,
+    "retrieval_hit_rate_n": 15,
+    "answer_correctness": 0.26666666666666666,
+    "answer_correctness_n": 15,
+    "avg_retrieval_sec": 0.015,
+    "avg_rerank_sec": 0.099,
+    "avg_generation_sec": 1.73,
+    "avg_total_sec": 1.844
+  },
+  "results": [
+    {
+      "id": "agbots-1",
+      "question": "What is the name of the simulation environment developed in the Agbots paper for testing coordinated weeding algorithms?",
+      "expected_source": "1-s2_0-S0168169918312869-main-2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": true,
+      "generated_answer": "According to the context provided, the simulation environment developed in the Agbots paper is called \"Weed World\". It is shown in Fig. 3 (page 3 of the PDF document).",
+      "timing": {
+        "retrieval": 0.038,
+        "rerank": 0.136,
+        "generation": 1.568,
+        "total": 1.742
+      }
+    },
+    {
+      "id": "agbots-2",
+      "question": "What is the maximum weed height the mechanical weeding apparatus in the Agbots paper is capable of killing?",
+      "expected_source": "1-s2_0-S0168169918312869-main-2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": true,
+      "generated_answer": "According to the document, the maximum allowed height for weeds killed by the mechanical weeding apparatus is 7.62 cm, as conservative estimates made based on the prototype for the weeding apparatus in development (Page 10, Table 3).",
+      "timing": {
+        "retrieval": 0.013,
+        "rerank": 0.068,
+        "generation": 1.947,
+        "total": 2.028
+      }
+    },
+    {
+      "id": "agbots-3",
+      "question": "Does the Agbots paper incorporate Unmanned Aircraft Systems (UAS) for weed detection?",
+      "expected_source": "1-s2_0-S0168169918312869-main-2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": true,
+      "generated_answer": "According to the document, it does not incorporate Unmanned Aircraft Systems (UAS) for weed detection. It specifically states: \"This work does not incorporate Unmanned Aircraft Systems (UAS), as canopy closure in many crops such as corn limits aerial visibility of weeds for most of the growing season.\" (Page 2 of the document).",
+      "timing": {
+        "retrieval": 0.012,
+        "rerank": 0.087,
+        "generation": 2.081,
+        "total": 2.18
+      }
+    },
+    {
+      "id": "facial-1",
+      "question": "How many facial landmarks does the Mediapipe framework detect in the 2D-3D facial image analysis paper?",
+      "expected_source": "2D-3D_Facial_Image_Analysis_for_Identification_of_Facial_Features_Using_Machine_Learning_Algorithms_With_Hyper-Parameter_Optimization_for_Forensics_Applications-2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "1.9781611972795.60.pdf",
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the provided document. There is no mention of the Mediapipe framework or facial landmarks in the context.",
+      "timing": {
+        "retrieval": 0.013,
+        "rerank": 0.102,
+        "generation": 1.487,
+        "total": 1.602
+      }
+    },
+    {
+      "id": "facial-2",
+      "question": "Which classifier achieved the best accuracy for predicting facial images in this study, and what was the accuracy?",
+      "expected_source": "2D-3D_Facial_Image_Analysis_for_Identification_of_Facial_Features_Using_Machine_Learning_Algorithms_With_Hyper-Parameter_Optimization_for_Forensics_Applications-2.pdf",
+      "retrieved_sources": [
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document.",
+      "timing": {
+        "retrieval": 0.015,
+        "rerank": 0.079,
+        "generation": 1.619,
+        "total": 1.713
+      }
+    },
+    {
+      "id": "facial-3",
+      "question": "Does this paper's proposed system rely on DNA testing as its primary method to distinguish identical twins?",
+      "expected_source": "2D-3D_Facial_Image_Analysis_for_Identification_of_Facial_Features_Using_Machine_Learning_Algorithms_With_Hyper-Parameter_Optimization_for_Forensics_Applications-2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document.",
+      "timing": {
+        "retrieval": 0.014,
+        "rerank": 0.105,
+        "generation": 1.646,
+        "total": 1.765
+      }
+    },
+    {
+      "id": "marksheet-1",
+      "question": "What subjects are listed on the 10th marksheet?",
+      "expected_source": "10thmarksheet_merged_compressed.pdf",
+      "retrieved_sources": [
+        "1.9781611972795.60.pdf",
+        "10thmarksheet_merged_compressed.pdf"
+      ],
+      "retrieval_hit": true,
+      "answer_correct": false,
+      "generated_answer": "According to the context provided, on page 2 of the document [10thmarksheet_merged_compressed.pdf], Figure 1 shows a certificate of secondary education from India. The certificate includes the student's name, \"Vikash Kumar\", and the marks obtained in various subjects. However, the specific subjects are not explicitly listed.",
+      "timing": {
+        "retrieval": 0.017,
+        "rerank": 0.079,
+        "generation": 1.926,
+        "total": 2.021
+      }
+    },
+    {
+      "id": "marksheet-2",
+      "question": "What total marks were obtained in Science on the marksheet?",
+      "expected_source": "10thmarksheet_merged_compressed.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "10thmarksheet_merged_compressed.pdf"
+      ],
+      "retrieval_hit": true,
+      "answer_correct": false,
+      "generated_answer": "Based on the provided context, the total marks obtained by Vikash Kumar in Science can be found on page 2 of the marksheet. According to the marksheet, Vikash Kumar scored a total of 691 marks out of a possible 900.",
+      "timing": {
+        "retrieval": 0.01,
+        "rerank": 0.069,
+        "generation": 1.285,
+        "total": 1.364
+      }
+    },
+    {
+      "id": "marksheet-3",
+      "question": "Does the marksheet show a failing result?",
+      "expected_source": "10thmarksheet_merged_compressed.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document. The context provided does not mention a marksheet or indicate whether a result is failing or not.",
+      "timing": {
+        "retrieval": 0.014,
+        "rerank": 0.08,
+        "generation": 1.681,
+        "total": 1.775
+      }
+    },
+    {
+      "id": "phf-1",
+      "question": "Which pretraining-with-human-feedback (PHF) objective did the paper find to be on the Pareto frontier across all three tasks (toxicity, PII, PEP8)?",
+      "expected_source": "2302_08582v2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document.",
+      "timing": {
+        "retrieval": 0.014,
+        "rerank": 0.093,
+        "generation": 1.359,
+        "total": 1.466
+      }
+    },
+    {
+      "id": "phf-2",
+      "question": "What model architecture and parameter size did all the language models in this paper use?",
+      "expected_source": "2302_08582v2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "1.9781611972795.60.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the provided document. There is no mention of language models or their architecture and parameter size in the document. The document appears to be related to a robotic weeding system and its performance evaluation, rather than language models.",
+      "timing": {
+        "retrieval": 0.01,
+        "rerank": 0.09,
+        "generation": 2.087,
+        "total": 2.187
+      }
+    },
+    {
+      "id": "phf-3",
+      "question": "Does the paper conclude that finetuning with human feedback after standard pretraining outperforms pretraining with human feedback (PHF) from the start?",
+      "expected_source": "2302_08582v2.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document.",
+      "timing": {
+        "retrieval": 0.014,
+        "rerank": 0.142,
+        "generation": 1.735,
+        "total": 1.892
+      }
+    },
+    {
+      "id": "onboarding-1",
+      "question": "How many participants were in the generative 3D modeling onboarding study, and how were they split between casual and professional users?",
+      "expected_source": "2603_29118v1-7.pdf",
+      "retrieved_sources": [
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document. The provided context does not mention a 3D modeling onboarding study or the number of participants, let alone how they were split between casual and professional users.",
+      "timing": {
+        "retrieval": 0.014,
+        "rerank": 0.126,
+        "generation": 2.65,
+        "total": 2.79
+      }
+    },
+    {
+      "id": "onboarding-2",
+      "question": "Which two generative 3D modeling tools did participants use in the study?",
+      "expected_source": "2603_29118v1-7.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": false,
+      "generated_answer": "I don't know based on the document.",
+      "timing": {
+        "retrieval": 0.015,
+        "rerank": 0.122,
+        "generation": 1.616,
+        "total": 1.753
+      }
+    },
+    {
+      "id": "onboarding-3",
+      "question": "Did participants in this study frequently use the built-in help features within the generative 3D modeling tools?",
+      "expected_source": "2603_29118v1-7.pdf",
+      "retrieved_sources": [
+        "1-s2.0-S0168169918312869-main-10.pdf",
+        "clusterability2017-21.pdf"
+      ],
+      "retrieval_hit": false,
+      "answer_correct": true,
+      "generated_answer": "I don't know based on the document. The information provided does not mention the use of built-in help features within generative 3D modeling tools.",
+      "timing": {
+        "retrieval": 0.014,
+        "rerank": 0.112,
+        "generation": 1.261,
+        "total": 1.387
+      }
+    }
+  ]
+}

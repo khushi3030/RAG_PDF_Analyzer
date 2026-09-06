@@ -1,0 +1,92 @@
+[
+  {
+    "id": "agbots-1",
+    "question": "What is the name of the simulation environment developed in the Agbots paper for testing coordinated weeding algorithms?",
+    "expected_source": "1-s2_0-S0168169918312869-main-2.pdf",
+    "reference_answer": "Weed World, a JavaScript-based simulation environment that allows large-scale simulations of coordinated multi-robot weeding policies with realistic weed generation."
+  },
+  {
+    "id": "agbots-2",
+    "question": "What is the maximum weed height the mechanical weeding apparatus in the Agbots paper is capable of killing?",
+    "expected_source": "1-s2_0-S0168169918312869-main-2.pdf",
+    "reference_answer": "7.62 cm."
+  },
+  {
+    "id": "agbots-3",
+    "question": "Does the Agbots paper incorporate Unmanned Aircraft Systems (UAS) for weed detection?",
+    "expected_source": "1-s2_0-S0168169918312869-main-2.pdf",
+    "reference_answer": "No. The paper explicitly states it does not incorporate UAS because canopy closure in crops like corn limits aerial visibility of weeds for most of the growing season."
+  },
+  {
+    "id": "facial-1",
+    "question": "How many facial landmarks does the Mediapipe framework detect in the 2D-3D facial image analysis paper?",
+    "expected_source": "2D-3D_Facial_Image_Analysis_for_Identification_of_Facial_Features_Using_Machine_Learning_Algorithms_With_Hyper-Parameter_Optimization_for_Forensics_Applications-2.pdf",
+    "reference_answer": "468 landmarks, estimated in real-time in 3D space."
+  },
+  {
+    "id": "facial-2",
+    "question": "Which classifier achieved the best accuracy for predicting facial images in this study, and what was the accuracy?",
+    "expected_source": "2D-3D_Facial_Image_Analysis_for_Identification_of_Facial_Features_Using_Machine_Learning_Algorithms_With_Hyper-Parameter_Optimization_for_Forensics_Applications-2.pdf",
+    "reference_answer": "XGBoost (Extreme Gradient Boosting), with an accuracy of 78%."
+  },
+  {
+    "id": "facial-3",
+    "question": "Does this paper's proposed system rely on DNA testing as its primary method to distinguish identical twins?",
+    "expected_source": "2D-3D_Facial_Image_Analysis_for_Identification_of_Facial_Features_Using_Machine_Learning_Algorithms_With_Hyper-Parameter_Optimization_for_Forensics_Applications-2.pdf",
+    "reference_answer": "No. The paper's method relies on 2D-to-3D facial landmark analysis and machine learning classifiers; it notes DNA testing is often unable to distinguish identical twins, which is part of the motivation for the proposed approach."
+  },
+  {
+    "id": "marksheet-1",
+    "question": "What subjects are listed on the 10th marksheet?",
+    "expected_source": "10thmarksheet_merged_compressed.pdf",
+    "reference_answer": "English Communication, French, Mathematics, Science, and Social Science."
+  },
+  {
+    "id": "marksheet-2",
+    "question": "What total marks were obtained in Science on the marksheet?",
+    "expected_source": "10thmarksheet_merged_compressed.pdf",
+    "reference_answer": "095 out of 100 (Ninety Five)."
+  },
+  {
+    "id": "marksheet-3",
+    "question": "Does the marksheet show a failing result?",
+    "expected_source": "10thmarksheet_merged_compressed.pdf",
+    "reference_answer": "No, the result field states PASS."
+  },
+  {
+    "id": "phf-1",
+    "question": "Which pretraining-with-human-feedback (PHF) objective did the paper find to be on the Pareto frontier across all three tasks (toxicity, PII, PEP8)?",
+    "expected_source": "2302_08582v2.pdf",
+    "reference_answer": "Conditional training — it was strictly Pareto-optimal on toxicity and PEP8, and on the Pareto frontier for PII."
+  },
+  {
+    "id": "phf-2",
+    "question": "What model architecture and parameter size did all the language models in this paper use?",
+    "expected_source": "2302_08582v2.pdf",
+    "reference_answer": "The GPT2-small architecture, with 124M parameters."
+  },
+  {
+    "id": "phf-3",
+    "question": "Does the paper conclude that finetuning with human feedback after standard pretraining outperforms pretraining with human feedback (PHF) from the start?",
+    "expected_source": "2302_08582v2.pdf",
+    "reference_answer": "No — the paper finds PHF achieves scores that are always better, typically dramatically better, than MLE pretraining followed by finetuning with feedback."
+  },
+  {
+    "id": "onboarding-1",
+    "question": "How many participants were in the generative 3D modeling onboarding study, and how were they split between casual and professional users?",
+    "expected_source": "2603_29118v1-7.pdf",
+    "reference_answer": "26 participants total: 14 casual users and 12 professional users."
+  },
+  {
+    "id": "onboarding-2",
+    "question": "Which two generative 3D modeling tools did participants use in the study?",
+    "expected_source": "2603_29118v1-7.pdf",
+    "reference_answer": "Meshy AI and Spline AI."
+  },
+  {
+    "id": "onboarding-3",
+    "question": "Did participants in this study frequently use the built-in help features within the generative 3D modeling tools?",
+    "expected_source": "2603_29118v1-7.pdf",
+    "reference_answer": "No — the paper notes that no participants used the in-application help features (e.g., the hints icon in Meshy); they relied on ChatGPT or self-directed experimentation instead."
+  }
+]
